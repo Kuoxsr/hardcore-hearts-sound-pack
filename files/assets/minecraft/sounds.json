@@ -1,4 +1,54 @@
 {
+    "entity.villager.ambient": {
+        "sounds": [
+            "mob/villager/idle1",
+            "mob/villager/idle2",
+            "mob/villager/idle3"
+        ],
+        "subtitle": "subtitles.entity.villager.ambient"
+    },
+        "entity.villager.celebrate": {
+        "sounds": [
+            "mob/villager/yes1",
+            "mob/villager/yes2",
+            "mob/villager/yes3"
+        ],
+        "subtitle": "subtitles.entity.villager.celebrate"
+    },
+    "entity.villager.death": {
+        "sounds": [
+            "mob/villager/death",
+            "mob/villager/death1",
+            "mob/villager/death2",
+            "mob/villager/death3"
+        ],
+        "subtitle": "subtitles.entity.villager.death"
+    },
+        "entity.villager.hurt": {
+        "sounds": [
+            "mob/villager/hit1",
+            "mob/villager/hit2",
+            "mob/villager/hit3",
+            "mob/villager/hit4"
+        ],
+        "subtitle": "subtitles.entity.villager.hurt"
+    },
+    "entity.villager.no": {
+        "sounds": [
+            "mob/villager/no1",
+            "mob/villager/no2",
+            "mob/villager/no3"
+        ],
+        "subtitle": "subtitles.entity.villager.no"
+    },
+    "entity.villager.trade": {
+        "sounds": [
+            "mob/villager/haggle1",
+            "mob/villager/haggle2",
+            "mob/villager/haggle3"
+        ],
+        "subtitle": "subtitles.entity.villager.trade"
+    },
     "entity.ghast.warn": {
         "sounds": [
             {"name":"mob/ghast/charge", "volume":1.0}
@@ -27,5 +77,60 @@
             {"name":"team/jazzlikeonion/fallsmall", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.generic.small_fall"
+    },
+    "entity.witch.ambient": {
+        "sounds": [
+        "entity/witch/ambient1",
+        "entity/witch/ambient2",
+        "entity/witch/ambient3",
+        "entity/witch/ambient4",
+        "entity/witch/ambient5",
+        {
+            "name": "entity/witch/ambient5",
+            "pitch": 0.9
+        }
+        ],
+        "subtitle": "subtitles.entity.witch.ambient"
+    },
+    "entity.witch.celebrate": {
+        "sounds": [
+            "entity/witch/ambient1",
+            "entity/witch/ambient4",
+            "entity/witch/celebrate"
+        ],
+        "subtitle": "subtitles.entity.witch.celebrate"
+    },
+    "entity.witch.death": {
+        "sounds": [
+            "entity/witch/death1",
+            "entity/witch/death2",
+            "entity/witch/death3"
+        ],
+        "subtitle": "subtitles.entity.witch.death"
+    },
+    "entity.witch.drink": {
+        "sounds": [
+            "entity/witch/drink1",
+            "entity/witch/drink2",
+            "entity/witch/drink3",
+            "entity/witch/drink4"
+        ],
+        "subtitle": "subtitles.entity.witch.drink"
+    },
+    "entity.witch.hurt": {
+        "sounds": [
+            "entity/witch/hurt1",
+            "entity/witch/hurt2",
+            "entity/witch/hurt3"
+        ],
+        "subtitle": "subtitles.entity.witch.hurt"
+    },
+    "entity.witch.throw": {
+        "sounds": [
+            "entity/witch/throw1",
+            "entity/witch/throw2",
+            "entity/witch/throw3"
+        ],
+        "subtitle": "subtitles.entity.witch.throw"
     }
 }
