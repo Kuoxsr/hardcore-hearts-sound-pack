@@ -1,7 +1,29 @@
 {
+    "entity.creeper.death": {
+        "sounds": [
+            "mob/creeper/death"
+        ],
+        "subtitle": "subtitles.entity.creeper.death"
+    },
+    "entity.creeper.hurt": {
+        "sounds": [
+            "mob/creeper/say1",
+            "mob/creeper/say2",
+            "mob/creeper/say3",
+            "mob/creeper/say4"
+        ],
+        "subtitle": "subtitles.entity.creeper.hurt"
+    },
+    "entity.creeper.primed": {
+        "sounds": [
+            {"name":"random/fuse", "weight":20},
+            {"name":"team/carlcrafts/mouth-horn-creeper-jumpscare", "volume":1.0}
+        ],
+        "subtitle": "subtitles.entity.creeper.primed"
+    },
     "entity.villager.ambient": {
         "sounds": [
-            "mob/villager/idle1",
+            {"name":"mob/villager/idle1", "volume":0.5},
             "mob/villager/idle2",
             "mob/villager/idle3"
         ],
@@ -17,19 +39,20 @@
     },
     "entity.villager.death": {
         "sounds": [
-            "mob/villager/death",
-            "mob/villager/death1",
-            "mob/villager/death2",
+            {"name":"mob/villager/death", "volume":0.5},
+            {"name":"mob/villager/death1", "volume":0.5},
+            {"name":"mob/villager/death2", "volume":0.5},
             "mob/villager/death3"
         ],
         "subtitle": "subtitles.entity.villager.death"
     },
         "entity.villager.hurt": {
         "sounds": [
-            "mob/villager/hit1",
-            "mob/villager/hit2",
-            "mob/villager/hit3",
-            "mob/villager/hit4"
+            {"name":"mob/villager/hit1", "volume":0.5},
+            {"name":"mob/villager/hit2", "volume":0.5},
+            {"name":"mob/villager/hit3", "volume":0.5},
+            {"name":"mob/villager/hit4", "volume":0.5},
+            {"name":"team/thebakeddean/oi01", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.hurt"
     },
@@ -43,7 +66,7 @@
     },
     "entity.villager.trade": {
         "sounds": [
-            "mob/villager/haggle1",
+            {"name":"mob/villager/haggle1", "volume":0.5},
             "mob/villager/haggle2",
             "mob/villager/haggle3"
         ],
@@ -80,7 +103,7 @@
     },
     "entity.witch.ambient": {
         "sounds": [
-        "entity/witch/ambient1",
+        {"name":"entity/witch/ambient1", "volume":1.0},
         "entity/witch/ambient2",
         "entity/witch/ambient3",
         "entity/witch/ambient4",
