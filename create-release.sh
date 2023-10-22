@@ -13,4 +13,4 @@ fi
 
 # In order to prevent the inclusion of every folder from the root
 # to my desired directory, I need to change directory (cd) first:
-(cd ../files && zip -r ../releases/hhst-sounds-$1 .)
+(cd files && zip -r ../releases/hhst-sounds-$1.zip .)
