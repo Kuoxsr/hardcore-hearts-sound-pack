@@ -1,20 +1,11 @@
 # Version 0.3
 ---
-Probably still a "beta" because there are still very few sounds included, but "beta" scares people into thinking there's something dangerous about it.  I assure you this is not the case.  It's just a bunch of sounds.
-
 Contains 16 total sounds from various members of the Hardcore Hearts Team, including:
-##### [CarlCrafts](https://www.twitch.tv/carlcrafts)
-Secret jump-scare
-##### [JazzLikeOnion](https://www.twitch.tv/jazzlikeonion)
-Player: fall damage
-Villager: ambient, trade
-Ghast: warn
-Enderman: scream
-##### [Tamildin](https://www.twitch.tv/tamildin)
-Witch: ambient
-Villager: hurt
-##### [TheBakedDean](https://www.twitch.tv/thebakeddean)
-Villager: death, hurt
+
+[CarlCrafts](https://www.twitch.tv/carlcrafts) Secret jump-scare
+[JazzLikeOnion](https://www.twitch.tv/jazzlikeonion) Enderman: scream, Ghast: warn, Player: fall damage, Villager: ambient, trade  
+[Tamildin](https://www.twitch.tv/tamildin) Witch: ambient, Villager: hurt
+[TheBakedDean](https://www.twitch.tv/thebakeddean) Villager: death, hurt
 
 #### Raw file count
 ```

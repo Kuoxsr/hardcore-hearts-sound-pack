@@ -4,7 +4,7 @@
 This is a Minecraft resource pack containing sounds featuring Twitch streamers in CarlCrafts' Hardcore Hearts Stream Team.
 
 ## Follow The Stream Team
-* Catch their livestreams on [Twitch](https://www.twitch.tv/team/hardcorehearts), and tell them Kuoxsr sent you.
+* Catch their live streams on [Twitch](https://www.twitch.tv/team/hardcorehearts), and tell them Kuoxsr sent you.
 
 ## How to install
 1. In Minecraft's main menu, click "Options"
@@ -22,24 +22,17 @@ If you hear a streamer in the Hardcore Hearts Stream Team say something or make 
 
 * Take a clip of the word or phrase, and publish it
 	- Remember to keep a link to the clip
-* Open an [issue](https://github.com/Kuoxsr/[specific_page_here]) on the github page for this project
+* Open an [issue](https://github.com/Kuoxsr/hardcore-hearts-sound-pack/issues) on the GitHub page for this project
 	- Describe the interesting word or phrase from the clip
 	- Include a link to the clip
 	- Name the Minecraft event you think the clip would be good for
 
 ## Currently featured in this pack:
-* [CarlCrafts](https://www.twitch.tv/carlcrafts)
-	- Secret jumpscare
-* [JazzLikeOnion](https://www.twitch.tv/jazzlikeonion)
-	- Player: fall damage 
-	- Villager: ambient, trade
-	- Experimenting with Ghast and/or Enderman scream sounds in this version
-* [Tamildin](https://www.twitch.tv/tamildin)
-	- Witch sounds: ambient
-	- Villager: hurt
-* [TheBakedDean](https://www.twitch.tv/thebakeddean)
-	- Villager: death, hurt
-	
+[CarlCrafts](https://www.twitch.tv/carlcrafts) Secret jump-scare
+[JazzLikeOnion](https://www.twitch.tv/jazzlikeonion) Enderman: scream, Ghast: warn, Player: fall damage, Villager: ambient, trade
+[Tamildin](https://www.twitch.tv/tamildin) Witch: ambient, Villager: hurt
+[TheBakedDean](https://www.twitch.tv/thebakeddean) Villager: death, hurt
 
 ## Technical notes
-Check out [this document](technical-notes.md) for in-depth technical information about the inner workings of the pack and my modus operandi.
+Check out [this document](technical-notes.md) for in-depth technical information about the inner workings of the pack and my modus operandi, and [this document](changelog.md) for a full change log.
+
