@@ -20,17 +20,17 @@ This pack uses a custom namespace to store all of its files.  This means in a fo
 In assets/minecraft/sounds.json, you refer to resources in these namespaces like this:
 
 ```
-"team:{team-member-name}/{ogg-file-name}"
+"team:{team-member-name}/{sound-event}/{ogg-file-name}"
 ```
 
-Note the use of a colon (:) instead of a slash.  this is because a namespace folder is just the starting point for every other category of minecraft resource.  In our case, there is a "sounds" sub-folder underneath "team" and the logic that reads the sounds.json file adds this after the "team:" automatically at runtime.
+Note the use of a colon (:) instead of a slash after the namespace "team."  this is because a namespace folder is just the starting point for every other category of minecraft resource.  In our case, there is a "sounds" sub-folder underneath "team" and the logic that reads the sounds.json file adds this automatically after the "team:" namespace at runtime.
 
 Here's an example of this usage from this pack:
 ```
 "entity.villager.death": {
         "replace":true,
         "sounds": [
-            {"name":"team:thebakeddean/no-oh-my-gosh-dude", "volume":0.5}
+            {"name":"team:tamildin/villager/hurt/gasp01", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.death"
     }
@@ -38,21 +38,17 @@ Here's an example of this usage from this pack:
 
 Also notice that "".ogg" is not specified in the JSON.  This is added automatically as well.
 
-The folder hierarchy in this pack ends at the team member's name, meaning all .ogg files relating to a particular team member live in the folder named after that team member.  I could have followed the Minecraft convention and had subfolders for the various sound event names, such as:
+I omit the "entity" aspect of the sound event, because the vast majority of sound events include this, so it seemed redundant.  Beyond that, however, all folder names follow the sound event exactly, even though they wouldn't have to.  If you're making a small pack, there's no reason to have a folder structure that goes 4 levels deep to find a sound.  In fact, everything _could_ go in assets/team/sounds/  ... but that would get confusing after a while.
 
-"team/sounds/{team-member-name}/mob/villager/ogg-file-name"
-
-... but I find the Minecraft folder names occasionally unintuitive.  For example, the sound event name is "entity.villager.ambient" but you find the ogg files in sounds/**mob**/villager (and none of the sound events use the "ambient" part as a folder name - that I know of.)  Furthermore, thinking ahead, every time I would add a new sound to a particular team member, I would need to go check what sub-folder the file should go in and create the new folder (if it didn't already exist) before adding the new file...
-
-It just seemed overwhelming, so I made it flat (for now).  This means that every new sound for a team member must have a unique name that differentiates it from every other sound by that same team member.  I do this a couple of ways:
+I tend to follow these conventions when naming .ogg files:
 
 1. Every name that I think might be common, I add 01 to the first one I cut, and keep incrementing with each new clip
-2. I give files descriptive names, like the Baked Dean name in the above example code
-3. I really hope I don't have to start using GUIDs
+2. I give files descriptive names, like the Tamildin name in the above example code
+3. I try to keep the length of the name as short as possible to convey what's in the sound, so that the sounds.json file doesn't have a lot of word-wrap.
 
 It may be a bad idea, but going forward I'm going to try to keep the sounds.json alphabetized by event name, team member name, and sound name.
 
-I also don't name sounds after the event I intend to use it for because when I'm cutting clips, I don't really know what I might use it for, and sometimes the same sound is used for multiple different events, so a name that is specific to the event would be confusing.  My method tends to be to use a name that transcribes what's actually being said in the clip, to a certain maximum size, to prevent too much typing.
+I also don't name sounds after the event I intend to use it for because when I'm cutting clips, I don't really know what I might use it for, and sometimes the same sound is used for multiple different events, so a name that is specific to the event could be confusing.  My method tends to be to use a name that transcribes what's actually being said in the clip, to a certain maximum size, to prevent too much typing.
 
 Anyway, there you have it.  I've gone on too long already.
 

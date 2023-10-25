@@ -3,73 +3,73 @@
         "replace":true,
         "sounds": [
             {"name":"random/fuse", "weight":20},
-            {"name":"team:carlcrafts/mouth-horn-creeper-jumpscare", "volume":1.0}
+            {"name":"team:carlcrafts/creeper/primed/mouth-horn-creeper-jumpscare", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.creeper.primed"
     },
     "entity.villager.ambient": {
         "sounds": [
-            {"name":"team:jazzlikeonion/umm01", "volume":0.3}
+            {"name":"team:jazzlikeonion/villager/ambient/umm01", "volume":0.3}
         ],
         "subtitle": "subtitles.entity.villager.ambient"
     },
     "entity.villager.death": {
         "replace":true,
         "sounds": [
-            {"name":"team:tamildin/we-didnt-have-a-totem-on", "volume":0.5},
-            {"name":"team:thebakeddean/scream-no01", "volume":0.5},
-            {"name":"team:thebakeddean/no-oh-my-gosh-dude", "volume":0.5}
+            {"name":"team:tamildin/villager/death/we-didnt-have-a-totem-on", "volume":0.5},
+            {"name":"team:thebakeddean/villager/death/scream-no01", "volume":0.5},
+            {"name":"team:thebakeddean/villager/death/no-oh-my-gosh-dude", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.death"
     },
         "entity.villager.hurt": {
         "replace":true,
         "sounds": [
-            {"name":"team:tamildin/gasp01", "volume":0.5},
-            {"name":"team:tamildin/oh01", "volume":0.5},
-            {"name":"team:tamildin/oh02", "volume":0.5},
-            {"name":"team:tamildin/uh-oh01", "volume":0.5},
-            {"name":"team:thebakeddean/oi01", "volume":0.5}
+            {"name":"team:tamildin/villager/hurt/gasp01", "volume":0.5},
+            {"name":"team:tamildin/villager/hurt/oh01", "volume":0.5},
+            {"name":"team:tamildin/villager/hurt/oh02", "volume":0.5},
+            {"name":"team:tamildin/villager/hurt/uh-oh01", "volume":0.5},
+            {"name":"team:thebakeddean/villager/hurt/oi01", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.hurt"
     },
     "entity.villager.trade": {
         "sounds": [
-            {"name":"team:jazzlikeonion/i-just-love-nuts", "volume":0.5}
+            {"name":"team:jazzlikeonion/villager/trade/i-just-love-nuts", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.trade"
     },
     "entity.ghast.warn": {
         "replace":true,
         "sounds": [
-            {"name":"team:jazzlikeonion/death-scream-ghast-charge", "volume":1.0}
+            {"name":"team:jazzlikeonion/ghast/warn/death-scream-ghast-charge", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.ghast.shoot"
     },
     "entity.enderman.scream": {
         "replace":true,
         "sounds": [
-            {"name":"team:jazzlikeonion/death-scream-enderman", "volume":1.0}
+            {"name":"team:jazzlikeonion/enderman/scream/death-scream-enderman", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.enderman.ambient"
     },
     "entity.player.big_fall": {
         "replace":true,
         "sounds": [
-            {"name":"team:jazzlikeonion/fallbig", "volume":1.0}
+            {"name":"team:jazzlikeonion/player/big_fall/fallbig", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.generic.big_fall"
     },
     "entity.player.small_fall": {
         "replace":true,
         "sounds": [
-            {"name":"team:jazzlikeonion/fallsmall", "volume":1.0}
+            {"name":"team:jazzlikeonion/player/small_fall/fallsmall", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.generic.small_fall"
     },
     "entity.witch.ambient": {
         "sounds": [
-        {"name":"team:tamildin/giggle01", "volume":1.0}
+        {"name":"team:tamildin/witch/ambient/giggle01", "volume":1.0}
         ],
         "subtitle": "subtitles.entity.witch.ambient"
     }
