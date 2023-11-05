@@ -8,8 +8,16 @@ clear
 echo
 read -p "Version suffix?  (e.g., 'v1.0): " version
 
-echo -e "\nPacking version $version \n"
+# Create date folder
+date_stamp=$(date +%Y.%m.%d)-$version
+mkdir -p "releases/${date_stamp}"
+
+echo -e "\nPacking version $version into folder $date_stamp: \n"
 
 # In order to prevent the inclusion of every folder from the root
 # to my desired directory, I need to change directory (cd) first:
-(cd files && zip -r ../releases/hhst-sounds-$version.zip .)
+filename=hhst-sounds-$version.zip
+(cd files && zip -r ../releases/${date_stamp}/$filename .)
+
+# Create a cryptographic hash checksum of our file
+(cd releases/${date_stamp} && sha256sum $filename > $filename.sha256)
