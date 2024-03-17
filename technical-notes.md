@@ -1,5 +1,5 @@
 ---
-modified: 2024-03-17T16:09:47-05:00
+modified: 2024-03-17T16:14:39-05:00
 ---
 # Technical notes
 For all those who are curious enough to read this far, here are a few insider tidbits about the pack.
@@ -30,12 +30,12 @@ Note the use of a colon (:) instead of a slash after the namespace "team."  this
 
 Here's an example of this usage from this pack:
 ```
-"entity.villager.death": {
+"entity.villager.hurt": {
         "replace":true,
         "sounds": [
             {"name":"team:tamildin/entity/villager/hurt/gasp01", "volume":0.5}
         ],
-        "subtitle": "subtitles.entity.villager.death"
+        "subtitle": "subtitles.entity.villager.hurt"
     }
 ```
 
