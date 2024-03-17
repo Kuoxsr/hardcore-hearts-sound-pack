@@ -1,3 +1,6 @@
+---
+modified: 2024-03-17T15:51:37-05:00
+---
 # Hardcore Hearts Sound Pack
 
 ## What's this all about?
@@ -28,20 +31,19 @@ If you hear a streamer in the Hardcore Hearts Stream Team say something or make 
 	- Name the Minecraft event you think the clip would be good for
 
 ## Currently featured in this pack:
-[CarlCrafts](https://www.twitch.tv/carlcrafts) Secret jump-scare
-[JazzLikeOnion](https://www.twitch.tv/jazzlikeonion) Enderman: scream, Ghast: warn, Player: fall damage, Villager: ambient, trade
-[Tamildin](https://www.twitch.tv/tamildin) Witch: ambient, Villager: hurt
-[TheBakedDean](https://www.twitch.tv/thebakeddean) Villager: death, hurt
+- [CarlCrafts](https://www.twitch.tv/carlcrafts) Secret jump-scare
+- [JazzLikeOnion](https://www.twitch.tv/jazzlikeonion) Enderman: scream, Ghast: warn, Player: fall damage, Villager: ambient, trade
+- [Tamildin](https://www.twitch.tv/tamildin) Witch: ambient, Villager: hurt
+- [TheBakedDean](https://www.twitch.tv/thebakeddean) Villager: death, hurt
 
 ## Technical notes
 Check out [this document](technical-notes.md) for in-depth technical information about the inner workings of the pack and my modus operandi, and [this document](CHANGELOG.md) for a full change log.
 
 ## Downloads
+The newest release is on top, followed by older ones:
 
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.1-beta/total)
+[<img src=https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.3/total>](https://github.com/Kuoxsr/hardcore-hearts-sound-pack/releases/tag/v0.3)
 
 ![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.2-beta/total)
 
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.3/total)
-
-
+![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.1-beta/total)
