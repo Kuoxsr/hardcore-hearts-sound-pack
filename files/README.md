@@ -1,5 +1,5 @@
 ---
-modified: 2024-03-17T15:51:37-05:00
+modified: 2024-03-17T15:56:57-05:00
 ---
 # Hardcore Hearts Sound Pack
 
@@ -44,6 +44,6 @@ The newest release is on top, followed by older ones:
 
 [<img src=https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.3/total>](https://github.com/Kuoxsr/hardcore-hearts-sound-pack/releases/tag/v0.3)
 
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.2-beta/total)
+[<img src=https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.2-beta/total>](https://github.com/Kuoxsr/hardcore-hearts-sound-pack/releases/tag/v0.2-beta)
 
-![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.1-beta/total)
+[<img src=https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.1-beta/total>](https://github.com/Kuoxsr/hardcore-hearts-sound-pack/releases/tag/v0.1-beta)
