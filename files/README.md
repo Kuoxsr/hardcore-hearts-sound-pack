@@ -1,6 +1,3 @@
----
-modified: 2024-03-17T15:56:57-05:00
----
 # Hardcore Hearts Sound Pack
 
 ## What's this all about?

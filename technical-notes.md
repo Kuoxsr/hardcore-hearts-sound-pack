@@ -1,6 +1,3 @@
----
-modified: 2024-03-17T16:14:39-05:00
----
 # Technical notes
 For all those who are curious enough to read this far, here are a few insider tidbits about the pack.
 ## Contributing
