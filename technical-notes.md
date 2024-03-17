@@ -1,3 +1,6 @@
+---
+modified: 2024-03-17T16:09:47-05:00
+---
 # Technical notes
 For all those who are curious enough to read this far, here are a few insider tidbits about the pack.
 ## Contributing
@@ -30,15 +33,13 @@ Here's an example of this usage from this pack:
 "entity.villager.death": {
         "replace":true,
         "sounds": [
-            {"name":"team:tamildin/villager/hurt/gasp01", "volume":0.5}
+            {"name":"team:tamildin/entity/villager/hurt/gasp01", "volume":0.5}
         ],
         "subtitle": "subtitles.entity.villager.death"
     }
 ```
 
 Also notice that "".ogg" is not specified in the JSON.  This is added automatically as well.
-
-I omit the "entity" aspect of the sound event, because the vast majority of sound events include this, so it seemed redundant.  Beyond that, however, all folder names follow the sound event exactly, even though they wouldn't have to.  If you're making a small pack, there's no reason to have a folder structure that goes 4 levels deep to find a sound.  In fact, everything _could_ go in assets/team/sounds/  ... but that would get confusing after a while.
 
 I tend to follow these conventions when naming .ogg files:
 
@@ -48,7 +49,7 @@ I tend to follow these conventions when naming .ogg files:
 
 It may be a bad idea, but going forward I'm going to try to keep the sounds.json alphabetized by event name, team member name, and sound name.
 
-I also don't name sounds after the event I intend to use it for because when I'm cutting clips, I don't really know what I might use it for, and sometimes the same sound is used for multiple different events, so a name that is specific to the event could be confusing.  My method tends to be to use a name that transcribes what's actually being said in the clip, to a certain maximum size, to prevent too much typing.
+I also don't name sounds after the event I intend to use it for because when I'm cutting clips, I don't really know what I might use it for, and sometimes the same sound is used for multiple different events, so a name that is specific to the event could be confusing.  My method tends to use a name that transcribes what's actually being said in the clip, to a certain maximum size, to prevent too much typing.
 
 Anyway, there you have it.  I've gone on too long already.
 
