@@ -34,5 +34,14 @@ If you hear a streamer in the Hardcore Hearts Stream Team say something or make 
 [TheBakedDean](https://www.twitch.tv/thebakeddean) Villager: death, hurt
 
 ## Technical notes
-Check out [this document](technical-notes.md) for in-depth technical information about the inner workings of the pack and my modus operandi, and [this document](changelog.md) for a full change log.
+Check out [this document](technical-notes.md) for in-depth technical information about the inner workings of the pack and my modus operandi, and [this document](CHANGELOG.md) for a full change log.
+
+## Downloads
+
+![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.1-beta/total)
+
+![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.2-beta/total)
+
+![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/Kuoxsr/hardcore-hearts-sound-pack/v0.3/total)
+
 

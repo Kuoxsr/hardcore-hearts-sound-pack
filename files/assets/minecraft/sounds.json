@@ -45,8 +45,8 @@
         "replace": true,
         "sounds": [
             {"name": "team:tamildin/entity/villager/death/we-didnt-have-a-totem-on", "volume": 0.5},
-            {"name": "team:thebakeddean/entity/villager/death/scream-no01", "volume": 0.5},
-            {"name": "team:thebakeddean/entity/villager/death/no-oh-my-gosh-dude", "volume": 0.5}
+            {"name": "team:thebakeddean/entity/villager/death/no-oh-my-gosh-dude", "volume": 0.5},
+            {"name": "team:thebakeddean/entity/villager/death/scream-no01", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.death"
     },
