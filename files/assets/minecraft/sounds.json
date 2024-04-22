@@ -68,6 +68,7 @@
         "subtitle": "subtitles.entity.generic.small_fall"
     },
     "entity.villager.ambient": {
+        "replace": true,
         "sounds": [
             {"name": "team:jazzlikeonion/entity/villager/ambient/umm01", "volume": 0.3},
             {"name": "team:sir_nipplington/entity/villager/ambient/aww01", "volume": 0.3},
@@ -125,7 +126,8 @@
             {"name": "team:sir_nipplington/entity/villager/celebrate/i-am-the-best-minecraft-player-ever", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/celebrate/i-win01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/celebrate/moh-youre-lucky-mate", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/celebrate/oh-no-i-missed-it", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/celebrate/oh-no-i-missed-it", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/celebrate/thank-you-so-much-for-the-raid", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.celebrate"
     },
@@ -149,6 +151,7 @@
             {"name": "team:sir_nipplington/entity/villager/death/oh-my-god07-actual-hardcore-death", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/death/oh-my-word01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/death/oh-no02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/death/that-took-me-so-long-to-process", "volume": 0.5},
             {"name": "team:tamildin/entity/villager/death/we-didnt-have-a-totem-on", "volume": 0.5},
             {"name": "team:thebakeddean/entity/villager/death/no-oh-my-gosh-dude", "volume": 0.5},
             {"name": "team:thebakeddean/entity/villager/death/scream-no01", "volume": 0.5}
@@ -210,14 +213,23 @@
             {"name": "team:sir_nipplington/entity/villager/no/nope03", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/no/oh-no01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/no/oh-well", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/perhaps-no", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/no/pretty-selfish-of-you-to-be-honest", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/no/really01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/no/scammed01", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/no/sorry-mate01", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/no/sorry-mate01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/that-doesnt-work-either", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-definitely-not-pog01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-not-pog-bro", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-not-pog01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-not-pog02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-terrible", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/no/thats-umm", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.no"
     },
     "entity.villager.trade": {
+        "replace": true,
         "sounds": [
             {"name": "team:jazzlikeonion/entity/villager/trade/i-just-love-nuts", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/trade/ah-youve-never-been-here", "volume": 0.5},
@@ -261,7 +273,9 @@
             {"name": "team:sir_nipplington/entity/villager/trade/singing03-were-the-chosen-ones", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/trade/singing12-see-the-tears-in-my-eyes", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/trade/singing15-bum-ba-dum", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/trade/sometimes-i-zone-out", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/trade/sometimes-i-zone-out", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/talk-to-my-boss-about-4-day-week", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/talkin-to-me01", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.trade"
     },
@@ -310,11 +324,22 @@
             {"name": "team:sir_nipplington/entity/villager/yes/something-different-why-not", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/yes/something-like-that-anyway", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/yes/sweet01", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/yes/sweet02", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/yes/sweet02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you-for-the-200-bitties", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you-so-much01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you03", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thank-you04", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/that-should-be-enough", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thats-fair01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/thats-pretty-good-im-very-happy-with-this", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/there-you-go01", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.yes"
     },
     "entity.witch.ambient": {
+        "replace": true,
         "sounds": [
             {"name": "team:sir_nipplington/entity/witch/ambient/laugh26", "volume": 0.7},
             {"name": "team:tamildin/entity/witch/ambient/giggle01", "volume": 1}
