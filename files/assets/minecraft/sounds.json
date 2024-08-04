@@ -414,19 +414,19 @@
         ],
         "subtitle": "subtitles.entity.witch.celebrate"
     },
-    "entity.zombie.ambient": {
+    "entity.zombie_villager.ambient": {
         "replace": true,
         "sounds": [
-            {"name": "team:sir_nipplington/entity/zombie/ambient/ah02"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/and01"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/and03"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/oh01"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/oh02"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/possible-zombie01"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie02"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie03"}
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/ah02"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/and01"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/and03"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/oh01"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/oh02"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/possible-zombie01"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/zombie"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/zombie02"},
+            {"name": "team:sir_nipplington/entity/zombie_villager/ambient/zombie03"}
         ],
-        "subtitle": "subtitles.entity.zombie.ambient"
+        "subtitle": "subtitles.entity.zombie_villager.ambient"
     }
 }
