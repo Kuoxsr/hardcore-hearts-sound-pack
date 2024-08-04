@@ -127,7 +127,8 @@
             {"name": "team:sir_nipplington/entity/villager/ambient/umm13", "volume": 0.3},
             {"name": "team:sir_nipplington/entity/villager/ambient/umm24", "volume": 0.3},
             {"name": "team:sir_nipplington/entity/villager/ambient/umm33", "volume": 0.3},
-            {"name": "team:sir_nipplington/entity/villager/ambient/umm39", "volume": 0.3}
+            {"name": "team:sir_nipplington/entity/villager/ambient/umm39", "volume": 0.3},
+            {"name": "team:sir_nipplington/entity/villager/ambient/yo01", "volume": 0.3}
         ],
         "subtitle": "subtitles.entity.villager.ambient"
     },
@@ -167,6 +168,7 @@
             {"name": "team:sir_nipplington/entity/villager/death/that-took-me-so-long-to-process", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/death/what-do-you-do-when-you-lose-the-world", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/death/what-the-hells-that-oh-i-quit", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/death/you-run-it-back", "volume": 0.5},
             {"name": "team:tamildin/entity/villager/death/we-didnt-have-a-totem-on", "volume": 0.5},
             {"name": "team:thebakeddean/entity/villager/death/no-oh-my-gosh-dude", "volume": 0.5},
             {"name": "team:thebakeddean/entity/villager/death/scream-no01", "volume": 0.5}
@@ -304,7 +306,11 @@
             {"name": "team:sir_nipplington/entity/villager/trade/welcome-in01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/trade/welcome-in04", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/trade/welcome-on-in-how-are-ya", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/trade/what-up-whats-going-on-bro", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/trade/what-up-whats-going-on-bro", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/you-put-a-picture-in-the-discord", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/you-should-introduce-me-to-him-he-sounds-pretty-cool", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/youre-flattering", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/trade/youve-sold-me-this-i-appreciate-this", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.trade"
     },
@@ -368,7 +374,28 @@
             {"name": "team:sir_nipplington/entity/villager/yes/unintelligible04", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/yes/we-vibin01", "volume": 0.5},
             {"name": "team:sir_nipplington/entity/villager/yes/we-will-see-you-when-you-return", "volume": 0.5},
-            {"name": "team:sir_nipplington/entity/villager/yes/well-done-doing-well", "volume": 0.5}
+            {"name": "team:sir_nipplington/entity/villager/yes/well-done-doing-well", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yay-another-time", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah-i-agree01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah-true-story", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah-yeah-ok01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah03", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah04", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah05", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah06", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah08", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah09", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah11", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yeah13", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep01", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep02", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep03", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep04", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep05", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yep06", "volume": 0.5},
+            {"name": "team:sir_nipplington/entity/villager/yes/yup02", "volume": 0.5}
         ],
         "subtitle": "subtitles.entity.villager.yes"
     },
@@ -395,7 +422,10 @@
             {"name": "team:sir_nipplington/entity/zombie/ambient/and03"},
             {"name": "team:sir_nipplington/entity/zombie/ambient/oh01"},
             {"name": "team:sir_nipplington/entity/zombie/ambient/oh02"},
-            {"name": "team:sir_nipplington/entity/zombie/ambient/possible-zombie01"}
+            {"name": "team:sir_nipplington/entity/zombie/ambient/possible-zombie01"},
+            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie"},
+            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie02"},
+            {"name": "team:sir_nipplington/entity/zombie/ambient/zombie03"}
         ],
         "subtitle": "subtitles.entity.zombie.ambient"
     }
