@@ -11,7 +11,7 @@ To be directional and distance-dependent in Minecraft, all sounds are mixed-down
 ## Building from source
 I usually push a bunch of commits between releases, so at any time, if you are impatient for a new version and you know what you are doing, you can clone my repository to your hard drive and pack the files yourself. I will not, however, be able to provide any kind of support for versions packed by other people.  There's just not enough time in the day for that.  To avoid confusion and/or conflicts, make sure you choose a name that doesn't match my format; perhaps use the word "custom" or the date you cloned the repo or "packed-by-{your name}" or something like that.
 
-All the files needed to build a pack are in the "files" folder.  Yeah, yeah, I know... really original folder name.  I wasn't sure what to call it.  The hardest thing in development is naming things.  Anyway, zip up the contents of that folder to create your own pack.  Make sure your zip file does not include the "files" folder itself.  Do this by going into the files folder with your file manager, draw a selection box around "assets", "LICENSE", "pack.mcmeta", "pack.png", and "README.md" then compress that into a zip file.  At that point, you should be good to go.
+All the files needed to build a pack are in the "files" folder.  Yeah, yeah, I know... really original folder name.  I wasn't sure what to call it.  The hardest thing in development is naming things.  Anyway, zip up the contents of that folder to create your own pack.  Make sure your zip file does not include the "files" folder itself.  Do this by going into the files folder with your file manager, draw a selection box around "assets", "LICENSE", "pack.mcmeta", "pack.png", and "README.md" then compress that into a zip file.  At that point, you should be good to go.  If you're on Linux, you could also run the bash script `create-release.sh` which does all the heavy-lifting for me, but again... no guarantees.
 
 Please consider any pack that you build from source between releases as testing only.  I can't make any guarantees that anything will work from commit to commit.
 ## Pack structure
@@ -19,14 +19,14 @@ This pack uses a custom namespace to store all of its files.  This means in a fo
 
 In assets/minecraft/sounds.json, you refer to resources in these namespaces like this:
 
-```
+```json
 "team:{team-member-name}/{sound-event}/{ogg-file-name}"
 ```
 
 Note the use of a colon (:) instead of a slash after the namespace "team."  this is because a namespace folder is just the starting point for every other category of minecraft resource.  In our case, there is a "sounds" sub-folder underneath "team" and the logic that reads the sounds.json file adds this automatically after the "team:" namespace at runtime.
 
 Here's an example of this usage from this pack:
-```
+```json
 "entity.villager.hurt": {
         "replace":true,
         "sounds": [
